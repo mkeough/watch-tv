@@ -9,4 +9,129 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #616247ff;
+  color: white;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+.home {
+  text-align: center;
+}
+.home li {
+  list-style: none;
+}
+
+.rest {
+  justify-content: center;
+  text-align: center;
+}
+
+.show {
+  align-items: center;
+  background-color: #daa03dff;
+  border-radius: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 1rem;
+  border-color: white;
+  border-style: solid;
+}
+.show img {
+  background-color: #daa03dff;
+  border-radius: 2rem;
+
+  border-color: white;
+  border-style: solid;
+}
+.show p a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+}
+.featured {
+  background-color: #daa03dff;
+  border-radius: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 1rem;
+  border-color: white;
+  border-style: solid;
+}
+.featured p {
+  font-size: 24px;
+}
+.featured a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+}
+.featured img {
+  border-color: white;
+  border-style: solid;
+  border-radius: 2rem;
+}
+h3 {
+  font-size: 48px;
+}
+h1 {
+  font-size: 60px;
+}
+.details {
+  text-align: center;
+  background-color: #daa03dff;
+  border-radius: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 1rem;
+  border-color: white;
+  border-style: solid;
+}
+.details ul {
+  list-style: none;
+}
+.poster {
+  border-color: white;
+  border-style: solid;
+  border-radius: 2rem;
+}
+.details p {
+  font-size: 30px;
+}
+.details h2 {
+  text-decoration: underline;
+  padding-left: 2rem;
+}
+.actors {
+  font-size: 24px;
+}
+.rating {
+  text-decoration: underline;
+}
+@media (min-width: 800px) {
+  .rest ul {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1000px) {
+  .rest ul {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1200px) {
+  .rest ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-around;
+  }
 }
